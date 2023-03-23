@@ -13,3 +13,7 @@ app.get('/', (req,res) => {
 app.get('/env', (req,res) => {
     res.send(`Solicitado el entorno: ${process.env.PAPACONQUESO}`)
 })
+
+app.get('/bye', (req,res) => {
+    res.send(`Adios Railway App`)
+})
